@@ -1,0 +1,117 @@
+body {
+  background-color: black;
+}
+
+head {
+  background-color: black;
+}
+
+nav {
+  background-color: black;
+}
+
+.card-wrapper {
+  margin: 5% 0;
+  /* overflow: hidden; */
+}
+
+/* .navbar {
+  background-color: black;
+} */
+
+.card {
+  background-color: #fac985;
+  padding: 10%;
+  overflow: hidden;
+}
+
+/* .navbar .navbar-brand {
+  color: goldenrod;
+  font-weight: 900;
+  font-size: xx-large;
+} */
+
+.navbar {
+  background-color: black;
+}
+
+.navbar .navbar-brand {
+  color: goldenrod;
+  font-weight: 900;
+  font-size: xx-large;
+  transition: font-size 0.3s ease;
+}
+
+.navbar .navbar-brand:hover {
+  font-size: calc(xx-large + 4px);
+}
+
+#classTable {
+  background-color: wheat;
+}
+
+/* You can adjust the image size by increasing/decreasing the width, height */
+.custom-circle-image {
+  width: 10vw; /* note i used vw not px for better responsive */
+  height: 10vw;
+  background-color: goldenrod;
+
+  transition: transform 0.4s; /* smoother zoom */
+}
+
+.custom-circle-image:hover {
+  transform: scale(1.1);
+  transform-origin: 50% 50%;
+}
+
+.custom-circle-image img {
+  object-fit: cover;
+}
+
+.card-title {
+  letter-spacing: 1.1px;
+}
+
+.card-text {
+  font-family: MerriweatherRegular;
+  font-size: 22px;
+  line-height: initial;
+}
+
+.col-sm-4 h2 {
+  color: #cab030;
+  text-align: center;
+  font-size: 16px;
+}
+
+.dropzone {
+  border-style: dashed;
+}
+
+.error {
+  font-family: MerriweatherRegular;
+  font-size: 30px;
+  line-height: initial;
+  color: blue;
+  text-align: center;
+}
+
+#classTable {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#classTable td,
+#classTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#classTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4caf50;
+  color: white;
+}
