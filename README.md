@@ -1,6 +1,8 @@
 ### Sports Celebrity Image Classification Project
 This project implements an image classification system to identify sports celebrities using machine learning. It includes a Flask web server to handle image classification requests and a utility script for loading the model and processing images.
 
+https://github.com/user-attachments/assets/2a307d43-705e-4a55-8157-2a58b2fdf726
+
 ## Project Structure
 - server.py: This file contains the Python Flask server that serves the image classification functionality via a REST API.
 - util.py: This file contains utility functions for image preprocessing, model loading, and the core classification logic.
